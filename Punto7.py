@@ -140,7 +140,6 @@ def report():
     print("Attended Customers " + str(attended_customers))
     print("Average delay in queue: " + str((delay_in_q / attended_customers) / 60))
     print("Employee hour of departure: " + str(clock / 60))
-    #print("Last departure: " + str(time_next_event["Departure"]))
 
 
 main_routine()
